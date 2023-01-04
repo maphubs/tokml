@@ -3,6 +3,7 @@
   "version": "0.6.1",
   "description": "convert geojson to kml",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "tap test/*.js",
     "build": "browserify -s tokml index.js > tokml.js",
